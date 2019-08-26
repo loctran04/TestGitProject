@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         btnShow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Xinchao", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Không", Toast.LENGTH_LONG).show();
             }
         });
     }
